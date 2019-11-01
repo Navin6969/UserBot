@@ -152,7 +152,7 @@ async def demote(dmod):
         except BadRequestError:
             await dmod.edit(NO_PERM)
             return
-        await dmod.edit("`Demoted Successfully by peru RubyRox!`")
+        await dmod.edit("`Demoted Successfully by nub navin!`")
 
         # Announce to the logging group if we have demoted successfully
         if BOTLOG:
@@ -253,7 +253,7 @@ async def nothanos(unbon):
                 user.id,
                 UNBAN_RIGHTS
             ))
-            await unbon.edit("```Unbanned Successfully by peru RubyRox!```")
+            await unbon.edit("```Unbanned Successfully by nub navin!```")
 
             if BOTLOG:
                 await unbon.client.send_message(
@@ -300,7 +300,7 @@ async def spider(spdr):
         mute(spdr.chat_id, user.id)
 
         # Announce that the function is done
-        await spdr.edit("`Safely taped by peru RubyRox!`")
+        await spdr.edit("`Safely taped by nub navin!`")
 
         # Announce to logging group
         if BOTLOG:
@@ -353,7 +353,7 @@ async def unmoot(unmot):
                     UNBAN_RIGHTS
                 )
             )
-            await unmot.edit("```Unmuted Successfully by peru RubyRox!```")
+            await unmot.edit("```Unmuted Successfully by nub navin!```")
         except UserIdInvalidError:
             await unmot.edit("`Uh oh my unmute logic broke!`")
             return
@@ -434,7 +434,7 @@ async def ungmoot(un_gmute):
         ungmute(user.id)
 
         # Inform about success
-        await un_gmute.edit("```Ungmuted Successfully by peru RubyRox!```")
+        await un_gmute.edit("```Ungmuted Successfully by nub navin!```")
 
         if BOTLOG:
             await un_gmute.client.send_message(
@@ -478,7 +478,7 @@ async def gspider(gspdr):
 
         # Delete the replied message and inform about success
         await gspdr.delete()
-        await gspdr.respond("`Globally taped by peru RubyRox!`")
+        await gspdr.respond("`Globally taped by nub navin!`")
 
         if BOTLOG:
             await gspdr.client.send_message(
