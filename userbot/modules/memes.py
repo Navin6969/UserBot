@@ -427,7 +427,7 @@ async def zal(zgfy):
 @register(outgoing=True, pattern="^hi$")
 async def hoi(hello):
     """ Greet everyone! """
-    await hello.edit("Hoi!🤘🏻")
+    await hello.edit("Heya!🔥")
                           
                           
 @register(outgoing=True, pattern="^.hack$")
@@ -437,7 +437,7 @@ async def hacking (hacked):
         if await hacked.get_reply_message():
             await hacked.edit(
                 "`Targeted Account Hacked successfully 😎......`\n"
-                "`Pay 6969$ to` @RubyRox `To Remove This Hack...`\n"
+                "`Pay 6969$ to` @Herbb69 `To Remove This Hack...`\n"
             )
 
 @register(outgoing=True, pattern="^.kill$")
@@ -446,7 +446,7 @@ async def killing (killed):
     if not killed.text[0].isalpha() and killed.text[0] not in ("/", "#", "@", "!"):
         if await killed.get_reply_message():
             await killed.edit(
-                "`Targeted User was Killed successfully by RubyRox 😈......`\n"
+                "`Targeted User was Killed successfully by nub navin 😈......`\n"
 		"#sad_reacts_only\n"
             )
 			  
